@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.jsyntech.institute.trackmee.ContractListView">
+
+    <RelativeLayout
+        android:elevation="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="#222222"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#42c5f4"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:text="Powered by SYNTECH SOLUTIONS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:background="#42c5f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- TODO: Update blank fragment layout -->
+                <ImageView
+                    android:id="@+id/slider"
+                    android:alpha="0.7"
+                    android:background="@drawable/justcheck"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0F2F1"
+                    android:layout_below="@+id/slider">
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <RelativeLayout
+                                    android:id="@+id/studymat"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:elevation="4dp"
+                                    android:background="#42c5f4"
+                                    android:paddingBottom="10dp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp">
+
+                                    <ImageButton
+                                        android:id="@+id/im1"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:background="@drawable/usericon" />
+
+                                    <RelativeLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@+id/im1"
+                                        android:paddingLeft="20dp"
+                                        android:paddingTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/stud"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="4dp"
+                                            android:text="MH 12 AB 1234"
+                                            android:textColor="#FFF"
+                                            android:textSize="25dp" />
+
+                                        <TextView
+                                            android:id="@+id/t1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="16sp"
+                                            android:layout_below="@+id/stud"
+                                            android:text="Nano" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_below="@+id/stud"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:textSize="16sp"
+                                            android:text="Owner: Swapnil Magdum" />
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                                <Space
+                                    android:id="@+id/spa2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="10dp"
+                                    android:layout_below="@+id/studymat" />
+
+                                <RelativeLayout
+                                    android:id="@+id/studymat2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/spa2"
+                                    android:elevation="4dp"
+                                    android:background="#42c5f4"
+                                    android:paddingBottom="10dp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp">
+
+                                    <ImageButton
+                                        android:id="@+id/im2"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:background="@drawable/usericon" />
+
+                                    <RelativeLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@+id/im2"
+                                        android:paddingLeft="20dp"
+                                        android:paddingTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/stud2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="4dp"
+                                            android:text="MH 12 CD 1294"
+                                            android:textColor="#FFF"
+                                            android:textSize="25dp"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_alignParentStart="true" />
+
+                                        <TextView
+                                            android:id="@+id/t2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="16sp"
+                                            android:text="Amaze"
+                                            android:layout_below="@+id/stud2"
+                                            android:layout_alignParentBottom="true"
+                                            android:layout_alignParentStart="true" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_below="@+id/stud2"
+                                            android:textSize="16sp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:text="Owner: Nilesh Kothari" />
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                                <Space
+                                    android:id="@+id/spa3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="10dp"
+                                    android:layout_below="@+id/studymat2" />
+
+
+                                <RelativeLayout
+                                    android:id="@+id/studymat3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/spa3"
+                                    android:elevation="4dp"
+                                    android:background="#42c5f4"
+                                    android:paddingBottom="10dp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp">
+
+                                    <ImageButton
+                                        android:id="@+id/im3"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:background="@drawable/usericon" />
+
+                                    <RelativeLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@+id/im3"
+                                        android:paddingLeft="20dp"
+                                        android:paddingTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/stud3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="4dp"
+                                            android:text="MH 12 AB 6789"
+                                            android:textColor="#FFF"
+                                            android:textSize="25dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/stud3"
+                                            android:textSize="16sp"
+                                            android:text="Honda City" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_below="@+id/stud3"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:textSize="16sp"
+                                            android:text="Owner: Ravi Ranjan" />
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                                <Space
+                                    android:id="@+id/spa4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="10dp"
+                                    android:layout_below="@+id/studymat3" />
+
+                                <RelativeLayout
+                                    android:id="@+id/studymat4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/spa4"
+                                    android:elevation="4dp"
+                                    android:background="#42c5f4"
+                                    android:paddingBottom="10dp"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp">
+
+                                    <ImageButton
+                                        android:id="@+id/im4"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:background="@drawable/usericon" />
+
+                                    <RelativeLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@+id/im4"
+                                        android:paddingLeft="20dp"
+                                        android:paddingTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/stud4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="4dp"
+                                            android:text="MH 12 DF 3489"
+                                            android:textColor="#FFF"
+                                            android:textSize="25dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/stud4"
+                                            android:textSize="16sp"
+                                            android:text="Dzire" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_below="@+id/stud4"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:textSize="16sp"
+                                            android:text="Owner: Amol Patil" />
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+
+                    </ScrollView>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+</RelativeLayout>
